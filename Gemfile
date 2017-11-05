@@ -60,8 +60,14 @@ group :production do
   gem "rack-timeout"
 end
 
+# frontend
 gem 'high_voltage'
 # gem 'bourbon', '~> 5.0.0.beta.8'
 # gem 'neat', '~> 2.1'
 # gem 'refills', group: [:development, :test]
 gem 'foundation-rails', '~> 6.4', '>= 6.4.1.2'
+
+# backend
+gem 'rails_admin', '~> 1.2'
+gem 'erubis', '~> 2.7' # support rails_admin
+gem 'rails_admin_import', '~> 2.0'

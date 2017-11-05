@@ -10,10 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171105025356) do
+ActiveRecord::Schema.define(version: 20171105193728) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "athletes", force: :cascade do |t|
+    t.string "last_name"
+    t.string "first_name"
+    t.integer "weight"
+    t.string "school"
+    t.integer "grade"
+    t.integer "state_place"
+    t.string "division"
+    t.integer "year"
+    t.string "state"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "delayed_jobs", force: :cascade do |t|
     t.integer "priority", default: 0, null: false
