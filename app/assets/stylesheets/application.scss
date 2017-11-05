@@ -2,8 +2,5 @@
 
 @import "normalize.css/normalize.css";
 
-@import "bourbon";
-@import "neat";
-
-@import "base/base";
-@import "refills/flashes";
+@import "foundation_and_overrides";
+/* Add imports of custom sass/scss files here */
