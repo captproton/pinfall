@@ -3,7 +3,8 @@ class AthletesController < ApplicationController
 
 	  # GET /athletes
   def index
-    @athletes = Athlete.all
+ 	  @q = Athlete.ransack(params[:q])
+  	@athletes = @q.result
   end
 
   # GET /athletes/1
@@ -18,3 +19,14 @@ class AthletesController < ApplicationController
     # end
 
 end
+# 
+# 
+
+  private
+    # def ransack_params
+    #   Athlete.ransack(params[:q])
+    # end
+
+    # def ransack_result
+    #   @search.result(distinct: user_wants_distinct_results?)
+    # end

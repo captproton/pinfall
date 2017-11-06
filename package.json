@@ -2,6 +2,7 @@
   "name": "pinfall",
   "private": true,
   "dependencies": {
+    "jquery": "^3.2.1",
     "normalize.css": "^7.0.0"
   }
 }

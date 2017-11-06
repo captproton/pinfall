@@ -1,0 +1,31 @@
+<table>
+  <thead>
+    <tr>
+      <th width="200">Athlete</th>
+      <th  class="sortable text-right">Weight&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+      <th  class="sortable" >School&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+      <th  class="sortable">Home State&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+      <th  class="sortable">Class&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+      <th  class="sortable" width="150">Grade&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody>
+  	<% @athletes.each do |a| %>
+  	<tr>
+		<td style="background: #f8f8f8;color: #0a0a0a;">
+			<strong>
+				<%= link_to a.full_name, a %>
+			</strong> 
+			<br /> 
+			video | Scouts Report
+		</td>
+		<td class="text-right"><%= a.weight%></td>
+		<td><%= a.school %></td>
+		<td><%= a.state %></td>
+		<td><%= a.division %></td>
+		<td class="text-right"><%= a.grade %></td>
+
+  	</tr>
+  	<% end %>
+  </tbody>
+</table>

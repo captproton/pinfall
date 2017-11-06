@@ -70,4 +70,5 @@ gem 'foundation-rails', '~> 6.4', '>= 6.4.1.2'
 # backend
 gem 'rails_admin', '~> 1.2'
 gem 'erubis', '~> 2.7' # support rails_admin
-gem 'rails_admin_import', '~> 2.0'
+gem 'rails_admin_import', '~> 2.0' # easily import csv and excel
+gem 'ransack', '~> 1.8', '>= 1.8.4' # search
