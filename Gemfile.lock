@@ -352,6 +352,7 @@ DEPENDENCIES
   erubis (~> 2.7)
   factory_girl_rails
   flutie
+  font-awesome-rails (~> 4.7, >= 4.7.0.2)
   formulaic
   foundation-rails (~> 6.4, >= 6.4.1.2)
   high_voltage

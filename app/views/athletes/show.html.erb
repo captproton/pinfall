@@ -1,8 +1,47 @@
-show.html.erb
+<div class="row">
+	<div class="medium-1 columns">&nbsp;</div>
 
-Last Name:
-<%= @athlete.id %><br />
+	<div class="medium-10 columns">
+				<div class="columns header-wrapper " >
+			<div style="background: linear-gradient(black, grey);color: #FFF;">
+				<div class="row columns wrestling" >
+				<%= render :partial => "showpage_header" %>	
+					
+				</div>
+				<%= render "pagenav_tabs" %>
+				
+			</div>
+		</div>
+		<div class="row">
+		  	<div class="medium-8 columns">
+			<div class="tabs-content" data-tabs-content="pagenav-tabs">
+			  <div class="tabs-panel is-active" id="panel1">
+			  	<%= render :partial => "recruiting_activity_table" %>
+		  	  </div>
+		  	  <div class="tabs-panel" id="panel2">
+			  	<%#= render :partial => "scouts_say" %>
+			  	<%= render :partial => "scouting_report" %>
+		  	  </div>
+		  	  <div class="tabs-panel" id="panel3">
+		  	  	<h4><%= @athlete.full_name%> News Feed</h4>
+		  	  	<%= render :partial => "news_listing"%>
+		  	  </div>
+		  	  <div class="tabs-panel" id="panel4">
+		  	  	<h4 class="title"><%= @athlete.full_name%> Videos</h4>
+			    <p>Suspendisse dictum feugiat nisl ut dapibus.  Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.  Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+		  	  </div>
+			</div>
 
-    t.string "last_name" < <br />
-    t.string "first_name"<br />
-    t.integer "weight"<br />
+
+		  </div>
+			<div class="medium-4 columns">
+				<%#= render :partial => "athlete_search" %>		
+				<h5>sponsored headlines</h5>
+				<%= render :partial => "sponsored_headlines" %>		
+			</div>
+		</div>
+
+	</div>
+
+	<div class="medium-1 columns">&nbsp;</div>
+</div>

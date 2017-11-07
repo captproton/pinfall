@@ -66,6 +66,7 @@ gem 'high_voltage'
 # gem 'neat', '~> 2.1'
 # gem 'refills', group: [:development, :test]
 gem 'foundation-rails', '~> 6.4', '>= 6.4.1.2'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 
 # backend
 gem 'rails_admin', '~> 1.2'

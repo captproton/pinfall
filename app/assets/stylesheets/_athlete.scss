@@ -1,0 +1,180 @@
+.mod-head-wrapper {
+	
+}
+.mod-head-wrapper .mod-content { 
+	background: image-url("bg-player_panel.png") no-repeat top center; 
+	border: none; 
+	padding: 0 !important; 
+	margin: 0; 
+	border-bottom: none; }
+.athlete-info {
+
+}
+.wrestling {
+background: url(http://a.espncdn.com/i/recruiting/collegesites/bg-basketball_player.jpg) no-repeat bottom center;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("http://a.espncdn.com/i/recruiting/collegesites/bg-basketball_player.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto auto;
+}
+.athlete-info {
+
+}
+.athlete-panels {
+
+}
+.bio {
+	border-top: 1px solid #565656;
+}
+.bio p {
+	font-weight: 900;
+	color:#FFF;	
+}
+.tabs {
+	background-color: transparent;
+	font-weight: 900;
+	color:#FFF;
+}
+.tabs a {
+	background-color: transparent;
+	font-weight: 900;
+	color:#FFF;
+}
+.tabs-panel h4 {
+	background-color: #1779ba;
+	color:#FFF;
+	font-weight: 900;
+}
+
+.border-right { border-right: 1px solid #000; }
+.border-bottom { border-bottom: 1px solid #000; }
+
+.stats {
+    background: url(http://a.espncdn.com/i/recruiting/collegesites/bg-trans.png);
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url("http://a.espncdn.com/i/recruiting/collegesites/bg-trans.png");
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+
+     text-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+
+
+}
+
+.stats .row {
+    background: url(http://a.espncdn.com/i/recruiting/collegesites/bg-trans.png);
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url("http://a.espncdn.com/i/recruiting/collegesites/bg-trans.png");
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+	font: 13px/1.385 helvetica,arial,clean,sans-serif;
+    font-family: helvetica, arial, clean, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.385;
+    font-size-adjust: none;
+    font-stretch: normal;
+    -x-system-font: none;
+    font-feature-settings: normal;
+    font-language-override: normal;
+    font-kerning: auto;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+}
+.stats table, thead, tbody, tfoot, tr {
+  border: 1px solid #f1f1f1;
+    background: url(http://a.espncdn.com/i/recruiting/collegesites/bg-trans.png);
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url("http://a.espncdn.com/i/recruiting/collegesites/bg-trans.png");
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+}
+.stats h4 {
+	font-size: 11px;
+	font-weight: 900;
+}
+.stats ol, ul {
+	list-style: none;
+}
+.stats .rank {  
+	padding: 5px 7px; 
+	font-size: 27px; 
+	color: #FFF; 
+	font-weight: bold; 
+	font-style: italic; 
+}
+
+.stats .rating {  
+	padding: 5px 7px; 
+	font-size: 27px; 
+	color: #FFF; 
+	font-weight: bold; 
+	font-style: italic; 
+}
+.stats .rating, TD .rating LI {
+	display: inline !important;
+}
+
+.rating li.star { width: 1px; height: 1px;  margin: 0 0px 0 2px !important; padding: 12px 65px 0 0 !important; overflow: hidden; }
+.rating li.five-star { background: url(http://a.espncdn.com/i/recruiting/collegesites/rating-5_stars.png) left top no-repeat !important; }
+.rating li.four-star { background: url(http://a.espncdn.com/i/recruiting/collegesites/rating-4_stars.png) left top no-repeat !important; }
+.rating li.three-star { background: url(http://a.espncdn.com/i/recruiting/collegesites/rating-3_stars.png) left top no-repeat !important;}
+.rating li.two-star { background: url(http://a.espncdn.com/i/recruiting/collegesites/rating-2_stars.png) left top no-repeat !important; }
+.rating li.one-star { background: url(http://a.espncdn.com/i/recruiting/collegesites/rating-1_stars.png) left top no-repeat !important; }
+.rating li.no-star { background: url(http://a.espncdn.com/i/recruiting/collegesites/rating-0_stars.png) left top no-repeat !important; }
+
+.stats TD.position,
+.stats TD.regional,
+.stats TD.state { font-family: verdana, arial, helvetica; 
+	font-size: 8px; 
+	padding: 2px 5px 2px; 
+	font-weight: bold; 
+	color: #6c9ec6; 
+}
+.stats TD.position SPAN,
+.stats TD.regional SPAN,
+.stats TD.state  SPAN { color: #FFF; }
+.stats .grade { padding: 5px 7px; }
+.stats .grade LI { 
+	font-size: 27px; 
+	color: #FFF; 
+	font-weight: bold; 
+	font-style: italic; }
+.stats .grade .star { margin: 9px 0 0 6px !important; }
+.stats .rank {  padding: 5px 7px; font-size: 27px; color: #FFF; font-weight: bold; font-style: italic; }
+.stats .rank SPAN,
+.stats .rank IMG { height: 27px; display: inline; }
+.stats .rank SPAN {padding: 0; float: left; width: 30px; text-align: right; margin-right: 8px; }
+.stats .aff { font-size: 10px; color: #b2b2b2; font-family: verdana, arial, helvetica;  padding: 2px 7px 2px;  }
+.stats .aff SPAN { margin-left: 15px; color: #FFF; font-weight: bold; }
+.stats .aff SPAN.sparq { padding: 5px; margin-left: 1px; background: url(/i/recruiting/collegesites/icon-asterisk.png) no-repeat left;  }
+.stats .traits { padding: 10px 7px 7px 9px; }
+.stats .traits .title { padding-right: 15px; }
+.stats .traits LI { list-style: none; display: inline; text-align: right; padding: 0 5px 5px 0; }
+.stats .traits LI A { font-size: 10px; }
+.stats .traits H4 { line-height: 1.25em; font-size: 14px; margin: 0; padding: 0; }

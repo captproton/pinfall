@@ -1,0 +1,29 @@
+<div class="main-panel row ">
+		<!-- image of athlete -->
+		<div class="medium-3 columns">
+			<%#= image_tag "http://a.espncdn.com/combiner/i?img=/i/headshots/recruiting/ncb/players/190/203733.jpg&w=190&h=254" %>
+			<%= image_tag "alex.png" %>
+		</div>
+		<!-- athlete info panel -->
+		<div class="large-9 columns athlete-info">
+			<div class="row columns">
+				<div class="medium-8 columns athlete-name">
+					<h1><%= @athlete.full_name %></h1> 					
+				</div>
+				<div class="medium-4 columns stays-blank">
+					&nbsp;				
+				</div>
+			</div>
+			<div class="row">
+			<div class="medium-6 columns background">
+				<%= render :partial => "bio", :locals => { :athlete => @athlete } %>
+
+			</div>
+			<div class="medium-6 columns stats">
+				<%= render :partial => "stats_content", :locals => { :athlete => @athlete }%>
+			</div>
+				
+		
+		</div>
+
+</div>
