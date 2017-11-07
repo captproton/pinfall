@@ -1,0 +1,22 @@
+<div class="row columns" style="border: 1px solid grey;">
+	<div class="row columns" style="background-color: grey;color: white;">Athete Search</div>
+	<div class="row columns">
+			<%= search_form_for @q do |f| %>
+
+		  # Search if the name field contains...
+		  <%= f.label :first_name_cont, "First Name Contains:" %>
+		  <%= f.search_field :first_name_cont %>
+		  <%= f.label :last_name_cont, "First Name Contains:" %>
+		  <%= f.search_field :last_name_cont %>
+
+
+		  <%= f.submit %>
+		<% end %>
+	
+	
+	</div>
+	<div class="row columns text-right">
+		<%= link_to "All Athletes", athletes_path, class: "text-align-right" %>
+
+	</div>
+</div>

@@ -10,6 +10,8 @@ class AthletesController < ApplicationController
   # GET /athletes/1
   def show
   	@athlete = Athlete.find(params[:id])
+    @q = Athlete.ransack(params[:q])
+    @athletes = @q.result
   end
   
   private
