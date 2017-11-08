@@ -1,16 +1,22 @@
 
+<div class="row columns">
+	<h1>Pinfall Wrestling Recruting Database</h1>
+</div>
 
-<%= tag.h1 'Find Athletes' %>
+<div class="row columns">
+	<div class="medium-8 columns">
+		<% if params[:q] %>
+			<%= render :partial => "search_results", :locals => { :athlete => @athlete }%>
+		<% else %>
+			<%= render :partial => "athlete_search", :locals => { :athlete => @athlete }%>
+		<% end %> 
 
-<%= search_form_for @q do |f| %>
+	</div>
 
-  # Search if the name field contains...
-  <%= f.label :first_name_cont, "First Name Contains:" %>
-  <%= f.search_field :first_name_cont %>
-
-
-  <%= f.submit %>
-<% end %>
-
-<%= render 'results' %>
-<%= render :partial => "table_sorting" %>
+	<div class="medium-4 columns">
+		<div class="sponsored-headlines">
+			<h5>sponsored headlines</h5>
+			<%= render :partial => "sponsored_headlines" %>							
+		</div>
+	</div>
+</div>
