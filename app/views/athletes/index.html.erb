@@ -1,0 +1,16 @@
+
+
+<%= tag.h1 'Find Athletes' %>
+
+<%= search_form_for @q do |f| %>
+
+  # Search if the name field contains...
+  <%= f.label :first_name_cont, "First Name Contains:" %>
+  <%= f.search_field :first_name_cont %>
+
+
+  <%= f.submit %>
+<% end %>
+
+<%= render 'results' %>
+<%= render :partial => "table_sorting" %>
